@@ -1,0 +1,24 @@
+name: Validate inspiration catalog
+
+on:
+  push:
+    paths:
+      - "messages.json"
+      - "scripts/validate_messages.py"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "messages.json"
+      - "scripts/validate_messages.py"
+      - ".github/workflows/validate.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate messages.json
+        run: python scripts/validate_messages.py messages.json
