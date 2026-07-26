@@ -22,6 +22,86 @@
         "id": "keep-going-004",
         "message": "Continue. O progresso também acontece nos dias silenciosos.",
         "encouragement": "Siga em frente"
+      },
+      {
+        "id": "keep-going-005",
+        "message": "A escolha de hoje é suficiente para manter seu caminho vivo.",
+        "encouragement": "Concentre-se no presente"
+      },
+      {
+        "id": "keep-going-006",
+        "message": "Você não precisa vencer todos os dias de uma vez. Apenas este momento.",
+        "encouragement": "Continue respirando"
+      },
+      {
+        "id": "keep-going-007",
+        "message": "Cada vez que você escolhe continuar, sua decisão ganha força.",
+        "encouragement": "Confie na sua escolha"
+      },
+      {
+        "id": "keep-going-008",
+        "message": "O progresso constante quase sempre começa com passos que parecem pequenos.",
+        "encouragement": "Seu passo tem valor"
+      },
+      {
+        "id": "keep-going-009",
+        "message": "O que você está construindo hoje pode transformar os seus próximos dias.",
+        "encouragement": "Permaneça no caminho"
+      },
+      {
+        "id": "keep-going-010",
+        "message": "A vontade pode passar. Sua decisão de cuidar de si pode permanecer.",
+        "encouragement": "Espere mais um pouco"
+      },
+      {
+        "id": "keep-going-011",
+        "message": "Você já atravessou todos os momentos difíceis que ficaram para trás.",
+        "encouragement": "Reconheça sua força"
+      },
+      {
+        "id": "keep-going-012",
+        "message": "Não é preciso sentir confiança para continuar agindo com coragem.",
+        "encouragement": "Escolha o próximo passo"
+      },
+      {
+        "id": "keep-going-013",
+        "message": "A liberdade se fortalece nas escolhas comuns de cada dia.",
+        "encouragement": "Continue escolhendo"
+      },
+      {
+        "id": "keep-going-014",
+        "message": "Seu compromisso continua válido mesmo quando o dia parece difícil.",
+        "encouragement": "Lembre-se do seu motivo"
+      },
+      {
+        "id": "keep-going-015",
+        "message": "O tempo está trabalhando ao lado das escolhas que você mantém.",
+        "encouragement": "Deixe o tempo avançar"
+      },
+      {
+        "id": "keep-going-016",
+        "message": "Uma decisão consciente agora pode tornar a próxima decisão mais leve.",
+        "encouragement": "Cuide deste momento"
+      },
+      {
+        "id": "keep-going-017",
+        "message": "Há valor em continuar, mesmo quando ninguém além de você consegue ver.",
+        "encouragement": "Seu esforço importa"
+      },
+      {
+        "id": "keep-going-018",
+        "message": "Você pode observar a vontade sem precisar obedecer a ela.",
+        "encouragement": "Dê espaço ao momento"
+      },
+      {
+        "id": "keep-going-019",
+        "message": "Seu futuro está sendo construído nas escolhas discretas de hoje.",
+        "encouragement": "Continue presente"
+      },
+      {
+        "id": "keep-going-020",
+        "message": "Persistir também significa respeitar seu ritmo e seguir mesmo assim.",
+        "encouragement": "Avance no seu ritmo"
       }
     ],
     "early_days": [
@@ -34,6 +114,46 @@
         "id": "early-days-002",
         "message": "Cada hora concluída é uma escolha a favor da vida que você quer construir.",
         "encouragement": "Valorize este começo"
+      },
+      {
+        "id": "early-days-003",
+        "message": "Os primeiros dias pedem paciência. Você não precisa ter todas as respostas agora.",
+        "encouragement": "Permita-se começar"
+      },
+      {
+        "id": "early-days-004",
+        "message": "Começar já foi uma decisão importante. Agora cuide apenas do próximo passo.",
+        "encouragement": "Mantenha o foco em hoje"
+      },
+      {
+        "id": "early-days-005",
+        "message": "Seu corpo e sua rotina estão aprendendo uma nova direção.",
+        "encouragement": "Tenha paciência consigo"
+      },
+      {
+        "id": "early-days-006",
+        "message": "Cada período concluído mostra que uma escolha diferente é possível.",
+        "encouragement": "Observe seu avanço"
+      },
+      {
+        "id": "early-days-007",
+        "message": "Você não precisa transformar tudo hoje. Manter seu compromisso já é suficiente.",
+        "encouragement": "Proteja seu começo"
+      },
+      {
+        "id": "early-days-008",
+        "message": "O início exige atenção, mas também revela capacidades que você talvez não conhecesse.",
+        "encouragement": "Descubra sua força"
+      },
+      {
+        "id": "early-days-009",
+        "message": "As primeiras escolhas criam o espaço onde novos hábitos podem crescer.",
+        "encouragement": "Continue criando espaço"
+      },
+      {
+        "id": "early-days-010",
+        "message": "Este começo não precisa ser perfeito para ser verdadeiro e importante.",
+        "encouragement": "Continue por hoje"
       }
     ],
     "restart": [
@@ -46,6 +166,46 @@
         "id": "restart-002",
         "message": "Uma falha não define sua jornada. A próxima escolha ainda é sua.",
         "encouragement": "Recomece com gentileza"
+      },
+      {
+        "id": "restart-003",
+        "message": "O que aconteceu pode ensinar você sem determinar o que acontecerá depois.",
+        "encouragement": "Leve o aprendizado"
+      },
+      {
+        "id": "restart-004",
+        "message": "Voltar ao caminho é uma decisão de coragem, não um motivo para culpa.",
+        "encouragement": "Escolha continuar"
+      },
+      {
+        "id": "restart-005",
+        "message": "Sua experiência anterior continua valiosa. Você não está começando do zero.",
+        "encouragement": "Recomece com experiência"
+      },
+      {
+        "id": "restart-006",
+        "message": "Um momento difícil não cancela todas as escolhas que você já conseguiu fazer.",
+        "encouragement": "Reconheça sua trajetória"
+      },
+      {
+        "id": "restart-007",
+        "message": "Hoje pode marcar uma nova decisão sem precisar apagar o dia anterior.",
+        "encouragement": "Siga sem se punir"
+      },
+      {
+        "id": "restart-008",
+        "message": "Recomeçar rapidamente é uma forma de proteger tudo o que você ainda quer construir.",
+        "encouragement": "Retome seu compromisso"
+      },
+      {
+        "id": "restart-009",
+        "message": "Você pode olhar para a falha com honestidade e ainda escolher esperança.",
+        "encouragement": "Seja gentil e continue"
+      },
+      {
+        "id": "restart-010",
+        "message": "A próxima escolha tem mais poder sobre seu caminho do que a escolha que passou.",
+        "encouragement": "Cuide do próximo passo"
       }
     ],
     "goal_reached": [
@@ -58,6 +218,46 @@
         "id": "goal-reached-002",
         "message": "Esta meta é a prova concreta de tudo o que você já conseguiu construir.",
         "encouragement": "Reconheça sua evolução"
+      },
+      {
+        "id": "goal-reached-003",
+        "message": "Você transformou tempo em uma conquista que merece ser reconhecida.",
+        "encouragement": "Celebre seu progresso"
+      },
+      {
+        "id": "goal-reached-004",
+        "message": "Cada escolha acumulada trouxe você até esta meta.",
+        "encouragement": "Valorize cada etapa"
+      },
+      {
+        "id": "goal-reached-005",
+        "message": "Esta conquista mostra que sua constância está produzindo resultados reais.",
+        "encouragement": "Continue construindo"
+      },
+      {
+        "id": "goal-reached-006",
+        "message": "Você alcançou algo que antes existia apenas como uma decisão.",
+        "encouragement": "Reconheça sua capacidade"
+      },
+      {
+        "id": "goal-reached-007",
+        "message": "Chegar a esta meta não foi acaso. Foi a soma das suas escolhas.",
+        "encouragement": "Sinta orgulho do caminho"
+      },
+      {
+        "id": "goal-reached-008",
+        "message": "Hoje existe uma prova concreta de que você consegue seguir adiante.",
+        "encouragement": "Leve esta confiança com você"
+      },
+      {
+        "id": "goal-reached-009",
+        "message": "Uma nova meta começa com a força que você demonstrou ao alcançar esta.",
+        "encouragement": "Avance com confiança"
+      },
+      {
+        "id": "goal-reached-010",
+        "message": "Reserve um momento para reconhecer o esforço que tornou esta conquista possível.",
+        "encouragement": "Você merece celebrar"
       }
     ],
     "long_streak": [
@@ -70,6 +270,46 @@
         "id": "long-streak-002",
         "message": "Você não está apenas contando dias. Está consolidando novas escolhas.",
         "encouragement": "Continue presente"
+      },
+      {
+        "id": "long-streak-003",
+        "message": "Sua sequência mostra que a constância pode transformar uma decisão em um novo caminho.",
+        "encouragement": "Confie no que construiu"
+      },
+      {
+        "id": "long-streak-004",
+        "message": "Muitos dias já passaram, e cada um deles carrega uma escolha que você sustentou.",
+        "encouragement": "Honre sua trajetória"
+      },
+      {
+        "id": "long-streak-005",
+        "message": "A força desta sequência está nas decisões simples que você repetiu.",
+        "encouragement": "Continue com consistência"
+      },
+      {
+        "id": "long-streak-006",
+        "message": "O caminho percorrido é uma lembrança de que você sabe continuar.",
+        "encouragement": "Use sua própria experiência"
+      },
+      {
+        "id": "long-streak-007",
+        "message": "Sua constância criou distância entre você e antigos padrões.",
+        "encouragement": "Proteja o que conquistou"
+      },
+      {
+        "id": "long-streak-008",
+        "message": "Uma sequência longa também é feita de dias comuns em que você decidiu permanecer.",
+        "encouragement": "Valorize os dias comuns"
+      },
+      {
+        "id": "long-streak-009",
+        "message": "Você construiu uma base forte. Continue cuidando dela uma escolha por vez.",
+        "encouragement": "Mantenha sua base"
+      },
+      {
+        "id": "long-streak-010",
+        "message": "O tempo da sua sequência revela a força de uma decisão renovada todos os dias.",
+        "encouragement": "Continue renovando sua escolha"
       }
     ]
   }
