@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-26",
+  "categories": {
+    "keep_going": [
+      {
+        "id": "keep-going-001",
+        "message": "Hoje não precisa ser perfeito. Precisa apenas ser verdadeiro.",
+        "encouragement": "Escolha continuar"
+      },
+      {
+        "id": "keep-going-002",
+        "message": "Um dia de cada vez ainda pode levar você muito longe.",
+        "encouragement": "Permaneça presente"
+      },
+      {
+        "id": "keep-going-003",
+        "message": "Pequenas escolhas repetidas constroem uma vida diferente.",
+        "encouragement": "Sua escolha importa"
+      },
+      {
+        "id": "keep-going-004",
+        "message": "Continue. O progresso também acontece nos dias silenciosos.",
+        "encouragement": "Siga em frente"
+      }
+    ],
+    "early_days": [
+      {
+        "id": "early-days-001",
+        "message": "O começo pode parecer pequeno, mas ele já representa uma mudança.",
+        "encouragement": "Um dia de cada vez"
+      },
+      {
+        "id": "early-days-002",
+        "message": "Cada hora concluída é uma escolha a favor da vida que você quer construir.",
+        "encouragement": "Valorize este começo"
+      }
+    ],
+    "restart": [
+      {
+        "id": "restart-001",
+        "message": "Recomeçar não apaga o caminho que você já percorreu.",
+        "encouragement": "Continue sem culpa"
+      },
+      {
+        "id": "restart-002",
+        "message": "Uma falha não define sua jornada. A próxima escolha ainda é sua.",
+        "encouragement": "Recomece com gentileza"
+      }
+    ],
+    "goal_reached": [
+      {
+        "id": "goal-reached-001",
+        "message": "Você chegou até aqui escolha por escolha.",
+        "encouragement": "Celebre esta conquista"
+      },
+      {
+        "id": "goal-reached-002",
+        "message": "Esta meta é a prova concreta de tudo o que você já conseguiu construir.",
+        "encouragement": "Reconheça sua evolução"
+      }
+    ],
+    "long_streak": [
+      {
+        "id": "long-streak-001",
+        "message": "Sua constância já está construindo uma história diferente.",
+        "encouragement": "Valorize seu caminho"
+      },
+      {
+        "id": "long-streak-002",
+        "message": "Você não está apenas contando dias. Está consolidando novas escolhas.",
+        "encouragement": "Continue presente"
+      }
+    ]
+  }
+}
