@@ -1,6 +1,6 @@
 # Política de Privacidade — Livre Hoje
 
-**Última atualização: 30 de julho de 2026**
+**Última atualização: 26 de agosto de 2026**
 
 O Livre Hoje é um aplicativo de acompanhamento de compromissos pessoais e
 mudança de hábitos desenvolvido pela Stunks Apps.
@@ -19,8 +19,9 @@ do app nas configurações do Android ou desinstalando o Livre Hoje.
 O aplicativo consulta periodicamente um catálogo público de mensagens de
 inspiração hospedado no GitHub. Essa consulta não inclui compromissos,
 histórico, identificadores de conta ou qualquer outro conteúdo criado pelo
-usuário. Uma cópia do catálogo também acompanha o aplicativo para permitir o
-funcionamento offline.
+usuário. A última versão válida do catálogo fica armazenada localmente depois
+da primeira busca bem-sucedida. O aplicativo inclui somente uma mensagem
+genérica para uso antes dessa busca ou quando não há catálogo disponível.
 
 ## Notificações
 
