@@ -13,7 +13,8 @@ EXPECTED_CATEGORIES = {
     "long_streak": 10,
 }
 ROOT_FIELDS = {"version", "updatedAt", "categories"}
-MESSAGE_FIELDS = {"id", "message", "encouragement"}
+MESSAGE_FIELDS = {"id", "message", "encouragement", "source"}
+MESSAGE_SOURCES = {"OFFICIAL", "COMMUNITY"}
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{3}$")
 
 
@@ -56,7 +57,8 @@ def validate(path: Path) -> list[str]:
             if not isinstance(item, dict):
                 errors.append(f"{location} must be an object.")
                 continue
-            if set(item) != MESSAGE_FIELDS:
+            fields = set(item)
+            if fields != MESSAGE_FIELDS:
                 errors.append(
                     f"{location} fields must be exactly: {sorted(MESSAGE_FIELDS)}"
                 )
@@ -64,6 +66,7 @@ def validate(path: Path) -> list[str]:
             message_id = item["id"]
             message = item["message"]
             encouragement = item["encouragement"]
+            source = item["source"]
             if not isinstance(message_id, str) or not ID_PATTERN.fullmatch(message_id):
                 errors.append(f"{location}.id has an invalid format.")
             elif message_id in seen_ids:
@@ -78,6 +81,10 @@ def validate(path: Path) -> list[str]:
             ):
                 errors.append(
                     f"{location}.encouragement must have 3 to 80 characters."
+                )
+            if not isinstance(source, str) or source not in MESSAGE_SOURCES:
+                errors.append(
+                    f"{location}.source must be OFFICIAL or COMMUNITY."
                 )
 
     return errors
