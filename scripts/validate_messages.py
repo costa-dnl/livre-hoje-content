@@ -82,7 +82,7 @@ def validate(path: Path) -> list[str]:
                 errors.append(
                     f"{location}.encouragement must have 3 to 80 characters."
                 )
-            if source not in MESSAGE_SOURCES:
+            if not isinstance(source, str) or source not in MESSAGE_SOURCES:
                 errors.append(
                     f"{location}.source must be OFFICIAL or COMMUNITY."
                 )
