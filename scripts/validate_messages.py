@@ -15,12 +15,16 @@ EXPECTED_CATEGORIES = {
 ROOT_FIELDS = {"version", "updatedAt", "categories"}
 MESSAGE_FIELDS = {"id", "message", "encouragement", "source"}
 MESSAGE_SOURCES = {"OFFICIAL", "COMMUNITY"}
-ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-\d{3}$")
+ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*-[0-9]{3}$")
+DATE_PATTERN = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
+MAX_CATALOG_SIZE_BYTES = 1_048_576
 
 
 def validate(path: Path) -> list[str]:
     errors: list[str] = []
     try:
+        if path.stat().st_size > MAX_CATALOG_SIZE_BYTES:
+            return [f"Catalog must not exceed {MAX_CATALOG_SIZE_BYTES} bytes."]
         root = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as error:
         return [f"Invalid JSON: {error}"]
@@ -29,11 +33,15 @@ def validate(path: Path) -> list[str]:
         return ["Root must be an object."]
     if set(root) != ROOT_FIELDS:
         errors.append(f"Root fields must be exactly: {sorted(ROOT_FIELDS)}")
-    if root.get("version") != 1:
-        errors.append("version must be 1.")
+    version = root.get("version")
+    if type(version) is not int or version != 1:
+        errors.append("version must be the integer 1.")
+    updated_at = root.get("updatedAt")
     try:
-        dt.date.fromisoformat(root.get("updatedAt", ""))
-    except (TypeError, ValueError):
+        if not isinstance(updated_at, str) or not DATE_PATTERN.fullmatch(updated_at):
+            raise ValueError
+        dt.date.fromisoformat(updated_at)
+    except ValueError:
         errors.append("updatedAt must use YYYY-MM-DD.")
 
     categories = root.get("categories")
