@@ -5,11 +5,13 @@ on:
     paths:
       - "messages.json"
       - "scripts/validate_messages.py"
+      - "tests/test_validate_messages.py"
       - ".github/workflows/validate.yml"
   pull_request:
     paths:
       - "messages.json"
       - "scripts/validate_messages.py"
+      - "tests/test_validate_messages.py"
       - ".github/workflows/validate.yml"
 
 permissions:
@@ -20,5 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Test validator
+        run: python -m unittest discover -s tests
       - name: Validate messages.json
         run: python scripts/validate_messages.py messages.json
